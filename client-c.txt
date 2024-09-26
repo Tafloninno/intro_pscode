@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Set number to 2 (the first count of products scanned)
+
+While number is less than or equal to 50:
+Print number (this represents the number of products scanned)
+Add 2 to number (to count the next package)

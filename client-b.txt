@@ -2,3 +2,16 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start at position (0, 0)
+
+Set the target position (let's call it target_x, target_y)
+
+While the current position isn't the target:
+-Ask the player to choose a direction: north, south, east, or west
+-If north, add 1 to y_position
+-If south, subtract 1 from y_position
+-If east, add 1 to x_position
+-If west, subtract 1 from x_position
+
+When the current position matches the target:
+Say "You found the spot!"

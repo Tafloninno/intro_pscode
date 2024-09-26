@@ -1,4 +1,21 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Pick a random number between 1 and 10 (let's call it secret_number)
+Set attempts to 0
 
+Repeat until the player guesses correctly or reaches 3 attempts:
+Ask the player to enter a guess
+
+Add 1 to attempts
+
+If the guess is the same as secret_number:
+Say "You Win!"
+
+End the game
+
+If the guess is higher or lower:
+Say "Too high" or "Too low"
+
+If the player doesn't guess in 3 tries:
+Say "Game over! The correct number was secret_number."
